@@ -52,7 +52,7 @@ def wjug(a,b,ai,bi,af,bf):
             continue
         print(f" A: {ai}, B: {bi}")
         if ai==af and bi==bf:
-            print("Final State Reached: A=", ai,", B= ", bi)
+            print("Final State Reached: jug A=", ai,", jug B= ", bi)
             return
 gcd=math.gcd(a,b)
 if(af<=a and bf<=b) and (af%gcd==bf%gcd==0):
